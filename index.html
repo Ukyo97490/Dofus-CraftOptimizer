@@ -1,23 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dofus CraftOptimizer</title>
+  <meta name="description" content="Dofus CraftOptimizer est un outil en ligne permettant aux joueurs de Dofus d'optimiser leurs crafts en fonction de leur capacité de pods. Calculez le poids des ressources et maximisez votre capacité de fabrication." />
+  <meta name="keywords" content="Dofus, CraftOptimizer, optimisation pods, craft Dofus, calcul de pods, ressources Dofus" />
+  <meta name="author" content="Ukyo974">
+  <title>Dofus CraftOptimizer - Optimisez vos crafts dans Dofus</title>
   <link rel="stylesheet" href="styles.css">
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
   <header>
     <div class="header-container">
-        <h1>Dofus CraftOptimizer</h1>
-        <p>Optimisez vos crafts dans Dofus en maximisant l'utilisation de vos pods disponibles. Cet outil simple et rapide calcule combien d'objets vous pouvez fabriquer en fonction des ressources nécessaires et de leur poids. Parfait pour éviter les surcharges !</p>
-        <img src="cordonnier.png" alt="Cordonnier" class="cordonnier-image">
-      </div>
-    </header>
+      <h1>Dofus CraftOptimizer</h1>
+      <p>Optimisez vos crafts dans Dofus en maximisant l'utilisation de vos pods disponibles. Cet outil simple et rapide calcule combien d'objets vous pouvez fabriquer en fonction des ressources nécessaires et de leur poids. Parfait pour éviter les surcharges de pods !</p>
+      <img src="cordonnier.png" alt="Image d'un cordonnier, artisan dans Dofus" class="cordonnier-image">
+    </div>
   </header>
 
   <main>
     <section class="calculator">
+      <h2>Calculateur de Craft</h2>
+      <p>Entrez vos ressources et la capacité de vos pods pour savoir combien d'objets vous pouvez fabriquer sans dépasser la limite.</p>
+
       <div class="input-group">
         <label for="total-pods">Capacité totale de pods :</label>
         <input type="number" id="total-pods" placeholder="Ex. 10891">
@@ -29,7 +36,7 @@
       </div>
 
       <div id="resource-list">
-        <h2>Ressources nécessaires</h2>
+        <h3>Ressources nécessaires</h3>
         <div class="resource-input">
           <input type="text" placeholder="Nom de la ressource" class="resource-name">
           <input type="number" placeholder="Quantité" class="resource-quantity">
@@ -42,13 +49,13 @@
     </section>
 
     <section class="result" id="result">
-      <h2>Résultats</h2>
+      <h3>Résultats</h3>
       <p id="output">Ajoutez vos données et cliquez sur "Calculer" pour voir les résultats.</p>
     </section>
   </main>
 
   <footer>
-    <p>Créé par <a href="mailto:damour.gregory@gmail.com" class="footer-link">Ukyo974</a> © 2025 Dofus CraftOptimizer - Créé pour les artisans Dofus.</p>
+    <p>Créé par <a href="mailto:damour.gregory@gmail.com" class="footer-link">Ukyo974</a> © 2025 Dofus CraftOptimizer - Outil dédié aux artisans Dofus.</p>
   </footer>
 
   <script src="script.js"></script>

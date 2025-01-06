@@ -1,0 +1,38 @@
+# Dofus CraftOptimizer
+
+## Description
+
+**Dofus CraftOptimizer** est un outil web développé pour les joueurs de **Dofus** souhaitant optimiser leurs crafts en fonction de leur capacité de pods. Cet outil permet de calculer le nombre maximal de ressources qu'un joueur peut transporter pour fabriquer des objets sans dépasser la capacité de pods de son inventaire.
+
+Avec **Dofus CraftOptimizer**, vous pouvez :
+- Calculer automatiquement le poids des ressources nécessaires pour fabriquer des objets.
+- Optimiser l'utilisation des pods pour maximiser le nombre de crafts réalisables.
+- Obtenir des suggestions pratiques pour ne pas dépasser votre capacité maximale de pods.
+
+Cet outil est particulièrement utile pour les joueurs ayant un métier de craft qui nécessite la gestion de nombreuses ressources avec des poids différents.
+
+**Important :** Aucune ressource n'est incluse par défaut. Cela permet aux utilisateurs de personnaliser l'outil avec leurs propres ressources en fonction de leur version de Dofus, qu'il s'agisse de **Dofus Rétro** ou **Dofus 2**. Vous pouvez ajouter facilement vos propres ressources dans l'outil pour l'adapter à vos besoins spécifiques.
+
+## Fonctionnalités
+
+- **Calcul du Poids Total** : En entrant les quantités de ressources que vous souhaitez utiliser, le programme calcule automatiquement le poids total de ces ressources.
+- **Optimisation des Crafts** : En fonction de la capacité de pods de votre inventaire, l'outil calcule combien d'objets vous pouvez fabriquer sans surcharge de poids.
+- **Interface Dynamique** : L'interface permet d'ajouter des ressources de manière simple et intuitive. Elle s'adapte à la taille de votre écran (responsive design) pour une expérience optimale sur ordinateur et mobile.
+- **Gestion des Ressources** : Ajoutez facilement des ressources provenant de Dofus, avec leur poids et leur quantité nécessaire pour chaque craft.
+
+## Prérequis
+
+- Un navigateur moderne (Chrome, Firefox, Safari, etc.).
+- Connexion Internet pour accéder à l'outil en ligne.
+
+## Installation
+
+**Dofus CraftOptimizer** est un projet en HTML, CSS et JavaScript. Il peut être utilisé directement dans un navigateur sans besoin de serveur. Si vous souhaitez l'installer localement :
+
+1. Téléchargez ou clonez ce projet depuis le dépôt GitHub.
+2. Ouvrez le fichier `index.html` dans votre navigateur.
+
+```bash
+git clone https://github.com/Ukyo97490/Dofus-CraftOptimizer.git
+cd dofus-craftoptimizer
+open index.html
