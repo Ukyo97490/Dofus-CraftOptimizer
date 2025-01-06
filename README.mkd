@@ -31,6 +31,8 @@ Cet outil est particulièrement utile pour les joueurs ayant un métier de craft
 
 1. Téléchargez ou clonez ce projet depuis le dépôt GitHub.
 2. Ouvrez le fichier `index.html` dans votre navigateur.
+## Utilisation directe
+**Dofus CraftOptimizer** est un projet en HTML, CSS et JavaScript. Il est accessible en ligne gratuitement à l'adresse :https://ukyo97490.github.io/Dofus-CraftOptimizer/
 
 ```bash
 git clone https://github.com/Ukyo97490/Dofus-CraftOptimizer.git
