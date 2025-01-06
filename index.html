@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dofus CraftOptimizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+        <h1>Dofus CraftOptimizer</h1>
+        <p>Optimisez vos crafts dans Dofus en maximisant l'utilisation de vos pods disponibles. Cet outil simple et rapide calcule combien d'objets vous pouvez fabriquer en fonction des ressources nécessaires et de leur poids. Parfait pour éviter les surcharges !</p>
+        <img src="cordonnier.png" alt="Cordonnier" class="cordonnier-image">
+      </div>
+    </header>
+  </header>
+
+  <main>
+    <section class="calculator">
+      <div class="input-group">
+        <label for="total-pods">Capacité totale de pods :</label>
+        <input type="number" id="total-pods" placeholder="Ex. 10891">
+      </div>
+
+      <div class="input-group">
+        <label for="used-pods">Pods déjà utilisés :</label>
+        <input type="number" id="used-pods" placeholder="Ex. 722">
+      </div>
+
+      <div id="resource-list">
+        <h2>Ressources nécessaires</h2>
+        <div class="resource-input">
+          <input type="text" placeholder="Nom de la ressource" class="resource-name">
+          <input type="number" placeholder="Quantité" class="resource-quantity">
+          <input type="number" placeholder="Poids unitaire (pods)" class="resource-weight">
+          <button class="remove-resource">X</button>
+        </div>
+      </div>
+      <button id="add-resource">Ajouter une ressource</button>
+      <button id="calculate">Calculer</button>
+    </section>
+
+    <section class="result" id="result">
+      <h2>Résultats</h2>
+      <p id="output">Ajoutez vos données et cliquez sur "Calculer" pour voir les résultats.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Créé par <a href="mailto:damour.gregory@gmail.com" class="footer-link">Ukyo974</a> © 2025 Dofus CraftOptimizer - Créé pour les artisans Dofus.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
