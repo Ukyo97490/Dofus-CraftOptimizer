@@ -25,14 +25,17 @@ Cet outil est particulièrement utile pour les joueurs ayant un métier de craft
 - Un navigateur moderne (Chrome, Firefox, Safari, etc.).
 - Connexion Internet pour accéder à l'outil en ligne.
 
+## Utilisation directe
+
+**Dofus CraftOptimizer** est un projet en HTML, CSS et JavaScript. Il est accessible en ligne gratuitement à l'adresse :https://ukyo97490.github.io/Dofus-CraftOptimizer/
+
 ## Installation
 
 **Dofus CraftOptimizer** est un projet en HTML, CSS et JavaScript. Il peut être utilisé directement dans un navigateur sans besoin de serveur. Si vous souhaitez l'installer localement :
 
 1. Téléchargez ou clonez ce projet depuis le dépôt GitHub.
 2. Ouvrez le fichier `index.html` dans votre navigateur.
-## Utilisation directe
-**Dofus CraftOptimizer** est un projet en HTML, CSS et JavaScript. Il est accessible en ligne gratuitement à l'adresse :https://ukyo97490.github.io/Dofus-CraftOptimizer/
+
 
 ```bash
 git clone https://github.com/Ukyo97490/Dofus-CraftOptimizer.git
